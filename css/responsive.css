@@ -40,10 +40,6 @@
                 justify-content: space-between;
         margin-bottom: 60px;
     }
-    .introleft {
-        width: 400px;
-        height: 309px;
-    }
     .introheading {
     font-size: 40px;
     }
@@ -162,15 +158,10 @@
     }
     .intro-wrapper {
         max-width:1708px;
-        width: 90%;
-        display: -webkit-box;
-        display: -ms-flexbox;
+        width: 100%;
         display: flex;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        flex-direction: column;
+        align-content: center;
         margin-bottom: 287.4px;
     }
     .introright {
@@ -179,11 +170,11 @@
     .service-wrapper1 {
         max-width: 1169px;
         width:95%;
+        display: flex;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
         display: -webkit-box;
         display: -ms-flexbox;
-        display: flex;
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between
@@ -236,6 +227,14 @@
         color:#747474;
         margin:0 auto;
         margin-top: 21px;
+    } 
+    .introleft {
+        width: 1708px;
+        width:90%;
+        height: 309px;
         text-align: center;
-    }   
+    }
+    .introwaveme {
+        margin:0 auto;
+    }
 }
