@@ -136,7 +136,7 @@
     }
 }
 /*media 768*/
-@media (max-width:768px) {
+@media (max-width:900px) {
     .headerdiv {
         max-width: 1708px;
         width:90%;
