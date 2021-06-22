@@ -136,7 +136,7 @@
     }
 }
 /*media 768*/
-@media (max-width:900px) {
+@media (max-width:1024px) {
     .headerdiv {
         max-width: 1708px;
         width:90%;
@@ -218,16 +218,6 @@
     }
     .iframe {
         padding-bottom: 10px;
-    }
-    .hoverbox:hover {
-        background-color: black;
-        width: 330px;
-        height: 410px;
-    }
-    .hoverbox {
-        -webkit-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
     }
     .burger-bar {
         font-size: 40px;
